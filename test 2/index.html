@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body style="font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; min-height: 100vh; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="text-align: center; padding: 2rem;">
+        <div style="width: 150px; height: 150px; border-radius: 50%; margin: 2rem auto; background: #fff; padding: 5px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <!-- Profile picture here -->
+        </div>
+        
+        <h1 style="font-size: 2.5rem; color: #2c3e50; margin-bottom: 0.5rem;">Your Name</h1>
+        <p style="color: #666; margin-bottom: 2rem;">Web Developer & Designer</p>
+        
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; max-width: 600px; margin: 0 auto; padding: 2rem;">            <a href="https://twitter.com" style="display: flex; align-items: center; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 10px; text-decoration: none; color: #333; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" target="_blank">
+                <i class="fab fa-twitter" style="margin-right: 10px; font-size: 1.2rem;"></i>
+                Twitter
+            </a>
+            
+            <a href="https://linkedin.com" style="display: flex; align-items: center; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 10px; text-decoration: none; color: #333; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" target="_blank">
+                <i class="fab fa-linkedin" style="margin-right: 10px; font-size: 1.2rem;"></i>
+                LinkedIn
+            </a>
+            
+            <a href="https://github.com" style="display: flex; align-items: center; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 10px; text-decoration: none; color: #333; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" target="_blank">
+                <i class="fab fa-github" style="margin-right: 10px; font-size: 1.2rem;"></i>
+                GitHub
+            </a>
+            
+            <a href="https://instagram.com" style="display: flex; align-items: center; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 10px; text-decoration: none; color: #333; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" target="_blank">
+                <i class="fab fa-instagram" style="margin-right: 10px; font-size: 1.2rem;"></i>
+                Instagram
+            </a>
+              <a href="https://youtube.com" style="display: flex; align-items: center; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 10px; text-decoration: none; color: #333; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" target="_blank">
+                <i class="fab fa-youtube" style="margin-right: 10px; font-size: 1.2rem;"></i>
+                Youtube
+            </a>
+            
+            <a href="https://pinterest.com" style="display: flex; align-items: center; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 10px; text-decoration: none; color: #333; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" target="_blank">
+                <i class="fab fa-pinterest" style="margin-right: 10px; font-size: 1.2rem;"></i>
+                Pinterest
+            </a>
+
+            <div class="info-section" style="grid-column: span 2; margin-top: 2rem;">
+                <button onclick="toggleSection('info')" style="width: 100%; padding: 1rem; background: rgba(255, 255, 255, 0.9); border: none; border-radius: 10px; font-size: 1rem; cursor: pointer; margin-bottom: 0.5rem; color: #333; transition: background-color 0.2s;">
+                    <i class="fas fa-info-circle" style="margin-right: 10px;"></i>
+                    Thông tin
+                </button>
+                <div id="info" style="display: none; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 10px; margin-bottom: 1rem;">
+                    <p style="text-align: left; margin: 0;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit tortor, congue sit amet nibh id, bibendum aliquam arcu. Donec efficitur mauris urna, vel pellentesque lectus fermentum ut. Vestibulum id tortor ac arcu condimentum sagittis non quis ante. Sed velit ante, blandit vel ex vitae, faucibus blandit metus. Quisque gravida nulla eget tristique congue. Donec dui nulla, rhoncus vel nibh in, iaculis rutrum enim. In ipsum nisl, commodo sit amet pharetra lobortis, ultrices rutrum dui. Cras et nisi quis augue eleifend tincidunt.
+
+Sed eget condimentum magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer facilisis eros urna, in ullamcorper nunc eleifend id. Cras vel tempus risus, sed rutrum lacus. Donec scelerisque quam mi, sed vulputate nisl gravida eu. Nullam congue purus eget aliquam sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eros orci. Duis pharetra sapien sit amet blandit consectetur. Nunc dictum ipsum ipsum, vel ullamcorper lectus venenatis eget. Nullam lectus lorem, viverra quis est at, ornare facilisis est. Proin molestie pulvinar velit at varius. Sed ut purus ut urna commodo sodales. Phasellus blandit nisi sem, ac vestibulum risus rhoncus quis.
+
+Phasellus egestas, elit eu ultricies ornare, odio turpis varius turpis, eget facilisis dui nisl ac justo. Donec finibus turpis mi, in rutrum arcu tempor ac. Phasellus condimentum consequat dui quis bibendum. Nam tempor odio turpis, vel gravida elit interdum nec. Sed convallis, libero nec tempor fermentum, urna turpis tempus mi, quis eleifend neque libero quis nulla. Donec blandit non arcu a consectetur. Praesent bibendum tincidunt ante, gravida sodales lorem ultricies sit amet. Sed viverra semper mauris a efficitur. Ut tincidunt, risus eu fringilla mollis, mauris massa dapibus neque, vitae imperdiet urna quam eget neque. Sed dictum sollicitudin orci non ultrices. Fusce id scelerisque lorem. Maecenas pulvinar efficitur ante a congue. Duis sollicitudin pretium metus, ut tincidunt dui varius a. Pellentesque viverra, diam ut pulvinar ornare, nulla dolor fringilla neque, sit amet tempus augue dolor nec quam. Sed vitae tincidunt metus.
+
+Phasellus in egestas nisl. Donec eget eros vitae ex consequat auctor vehicula eget ipsum. Nullam finibus, urna non fermentum dignissim, metus metus tempus erat, in posuere sem mi quis felis. Vivamus sem ex, volutpat tincidunt dictum eget, finibus non purus. Aliquam vitae dictum velit. Donec tellus dolor, consectetur non nulla consectetur, feugiat pretium nunc. Duis tincidunt a nulla a sagittis. Nullam sit amet feugiat ligula, eget vestibulum massa. In vestibulum ipsum placerat quam tincidunt aliquam. Duis tellus augue, sodales non quam in, euismod sollicitudin sem. Phasellus eleifend ante et metus ullamcorper, at venenatis nibh luctus. Nulla facilisi. Mauris mattis ante nisi, ac condimentum metus dapibus et. Cras eget efficitur ipsum, at porta nunc. Mauris ex urna, pretium at turpis quis, posuere mollis quam.
+
+Fusce venenatis dui eget pulvinar dictum. Morbi viverra elit sit amet magna porta, in aliquam tortor vestibulum. Suspendisse consectetur dictum lacus. Pellentesque sollicitudin leo a vehicula tristique. Curabitur varius est a dolor congue, ut venenatis tellus dictum. Vestibulum euismod ultricies nulla, sed bibendum est porttitor id. Phasellus luctus neque ut molestie auctor. Donec sit amet nibh vitae ipsum faucibus gravida. Nulla feugiat fringilla tortor, non volutpat augue ullamcorper eu.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-section" style="grid-column: span 2;">
+                <button onclick="toggleSection('projects')" style="width: 100%; padding: 1rem; background: rgba(255, 255, 255, 0.9); border: none; border-radius: 10px; font-size: 1rem; cursor: pointer; margin-bottom: 0.5rem; color: #333; transition: background-color 0.2s;">
+                    <i class="fas fa-project-diagram" style="margin-right: 10px;"></i>
+                    Dự án
+                </button>
+                <div id="projects" style="display: none; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 10px; margin-bottom: 1rem;">
+                    <p style="text-align: left; margin: 0;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit tortor, congue sit amet nibh id, bibendum aliquam arcu. Donec efficitur mauris urna, vel pellentesque lectus fermentum ut. Vestibulum id tortor ac arcu condimentum sagittis non quis ante. Sed velit ante, blandit vel ex vitae, faucibus blandit metus. Quisque gravida nulla eget tristique congue. Donec dui nulla, rhoncus vel nibh in, iaculis rutrum enim. In ipsum nisl, commodo sit amet pharetra lobortis, ultrices rutrum dui. Cras et nisi quis augue eleifend tincidunt.
+
+Sed eget condimentum magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer facilisis eros urna, in ullamcorper nunc eleifend id. Cras vel tempus risus, sed rutrum lacus. Donec scelerisque quam mi, sed vulputate nisl gravida eu. Nullam congue purus eget aliquam sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eros orci. Duis pharetra sapien sit amet blandit consectetur. Nunc dictum ipsum ipsum, vel ullamcorper lectus venenatis eget. Nullam lectus lorem, viverra quis est at, ornare facilisis est. Proin molestie pulvinar velit at varius. Sed ut purus ut urna commodo sodales. Phasellus blandit nisi sem, ac vestibulum risus rhoncus quis.
+
+Phasellus egestas, elit eu ultricies ornare, odio turpis varius turpis, eget facilisis dui nisl ac justo. Donec finibus turpis mi, in rutrum arcu tempor ac. Phasellus condimentum consequat dui quis bibendum. Nam tempor odio turpis, vel gravida elit interdum nec. Sed convallis, libero nec tempor fermentum, urna turpis tempus mi, quis eleifend neque libero quis nulla. Donec blandit non arcu a consectetur. Praesent bibendum tincidunt ante, gravida sodales lorem ultricies sit amet. Sed viverra semper mauris a efficitur. Ut tincidunt, risus eu fringilla mollis, mauris massa dapibus neque, vitae imperdiet urna quam eget neque. Sed dictum sollicitudin orci non ultrices. Fusce id scelerisque lorem. Maecenas pulvinar efficitur ante a congue. Duis sollicitudin pretium metus, ut tincidunt dui varius a. Pellentesque viverra, diam ut pulvinar ornare, nulla dolor fringilla neque, sit amet tempus augue dolor nec quam. Sed vitae tincidunt metus.
+
+Phasellus in egestas nisl. Donec eget eros vitae ex consequat auctor vehicula eget ipsum. Nullam finibus, urna non fermentum dignissim, metus metus tempus erat, in posuere sem mi quis felis. Vivamus sem ex, volutpat tincidunt dictum eget, finibus non purus. Aliquam vitae dictum velit. Donec tellus dolor, consectetur non nulla consectetur, feugiat pretium nunc. Duis tincidunt a nulla a sagittis. Nullam sit amet feugiat ligula, eget vestibulum massa. In vestibulum ipsum placerat quam tincidunt aliquam. Duis tellus augue, sodales non quam in, euismod sollicitudin sem. Phasellus eleifend ante et metus ullamcorper, at venenatis nibh luctus. Nulla facilisi. Mauris mattis ante nisi, ac condimentum metus dapibus et. Cras eget efficitur ipsum, at porta nunc. Mauris ex urna, pretium at turpis quis, posuere mollis quam.
+
+Fusce venenatis dui eget pulvinar dictum. Morbi viverra elit sit amet magna porta, in aliquam tortor vestibulum. Suspendisse consectetur dictum lacus. Pellentesque sollicitudin leo a vehicula tristique. Curabitur varius est a dolor congue, ut venenatis tellus dictum. Vestibulum euismod ultricies nulla, sed bibendum est porttitor id. Phasellus luctus neque ut molestie auctor. Donec sit amet nibh vitae ipsum faucibus gravida. Nulla feugiat fringilla tortor, non volutpat augue ullamcorper eu.
+                    </p>
+                </div>
+            </div>
+
+            <div class="dreams-section" style="grid-column: span 2;">
+                <button onclick="toggleSection('dreams')" style="width: 100%; padding: 1rem; background: rgba(255, 255, 255, 0.9); border: none; border-radius: 10px; font-size: 1rem; cursor: pointer; margin-bottom: 0.5rem; color: #333; transition: background-color 0.2s;">
+                    <i class="fas fa-star" style="margin-right: 10px;"></i>
+                    Ước mơ
+                </button>
+                <div id="dreams" style="display: none; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 10px; margin-bottom: 1rem;">
+                    <p style="text-align: left; margin: 0;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit tortor, congue sit amet nibh id, bibendum aliquam arcu. Donec efficitur mauris urna, vel pellentesque lectus fermentum ut. Vestibulum id tortor ac arcu condimentum sagittis non quis ante. Sed velit ante, blandit vel ex vitae, faucibus blandit metus. Quisque gravida nulla eget tristique congue. Donec dui nulla, rhoncus vel nibh in, iaculis rutrum enim. In ipsum nisl, commodo sit amet pharetra lobortis, ultrices rutrum dui. Cras et nisi quis augue eleifend tincidunt.
+
+Sed eget condimentum magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer facilisis eros urna, in ullamcorper nunc eleifend id. Cras vel tempus risus, sed rutrum lacus. Donec scelerisque quam mi, sed vulputate nisl gravida eu. Nullam congue purus eget aliquam sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu eros orci. Duis pharetra sapien sit amet blandit consectetur. Nunc dictum ipsum ipsum, vel ullamcorper lectus venenatis eget. Nullam lectus lorem, viverra quis est at, ornare facilisis est. Proin molestie pulvinar velit at varius. Sed ut purus ut urna commodo sodales. Phasellus blandit nisi sem, ac vestibulum risus rhoncus quis.
+
+Phasellus egestas, elit eu ultricies ornare, odio turpis varius turpis, eget facilisis dui nisl ac justo. Donec finibus turpis mi, in rutrum arcu tempor ac. Phasellus condimentum consequat dui quis bibendum. Nam tempor odio turpis, vel gravida elit interdum nec. Sed convallis, libero nec tempor fermentum, urna turpis tempus mi, quis eleifend neque libero quis nulla. Donec blandit non arcu a consectetur. Praesent bibendum tincidunt ante, gravida sodales lorem ultricies sit amet. Sed viverra semper mauris a efficitur. Ut tincidunt, risus eu fringilla mollis, mauris massa dapibus neque, vitae imperdiet urna quam eget neque. Sed dictum sollicitudin orci non ultrices. Fusce id scelerisque lorem. Maecenas pulvinar efficitur ante a congue. Duis sollicitudin pretium metus, ut tincidunt dui varius a. Pellentesque viverra, diam ut pulvinar ornare, nulla dolor fringilla neque, sit amet tempus augue dolor nec quam. Sed vitae tincidunt metus.
+
+Phasellus in egestas nisl. Donec eget eros vitae ex consequat auctor vehicula eget ipsum. Nullam finibus, urna non fermentum dignissim, metus metus tempus erat, in posuere sem mi quis felis. Vivamus sem ex, volutpat tincidunt dictum eget, finibus non purus. Aliquam vitae dictum velit. Donec tellus dolor, consectetur non nulla consectetur, feugiat pretium nunc. Duis tincidunt a nulla a sagittis. Nullam sit amet feugiat ligula, eget vestibulum massa. In vestibulum ipsum placerat quam tincidunt aliquam. Duis tellus augue, sodales non quam in, euismod sollicitudin sem. Phasellus eleifend ante et metus ullamcorper, at venenatis nibh luctus. Nulla facilisi. Mauris mattis ante nisi, ac condimentum metus dapibus et. Cras eget efficitur ipsum, at porta nunc. Mauris ex urna, pretium at turpis quis, posuere mollis quam.
+
+Fusce venenatis dui eget pulvinar dictum. Morbi viverra elit sit amet magna porta, in aliquam tortor vestibulum. Suspendisse consectetur dictum lacus. Pellentesque sollicitudin leo a vehicula tristique. Curabitur varius est a dolor congue, ut venenatis tellus dictum. Vestibulum euismod ultricies nulla, sed bibendum est porttitor id. Phasellus luctus neque ut molestie auctor. Donec sit amet nibh vitae ipsum faucibus gravida. Nulla feugiat fringilla tortor, non volutpat augue ullamcorper eu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section.style.display === 'none') {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        }
+
+        // Show/hide Back to Top button on scroll
+        window.addEventListener('scroll', function() {
+            const btn = document.getElementById('backToTopBtn');
+            if (window.scrollY > 100) {
+                btn.style.display = 'block';
+                setTimeout(() => { btn.style.opacity = '1'; }, 10);
+            } else {
+                btn.style.opacity = '0';
+                setTimeout(() => { btn.style.display = 'none'; }, 500);
+            }
+        });
+
+        function smoothScrollToTop() {
+            const scrollStep = () => {
+                const c = window.scrollY;
+                if (c > 0) {
+                    window.scrollTo(0, c - Math.max(10, c / 10));
+                    requestAnimationFrame(scrollStep);
+                }
+            };
+            requestAnimationFrame(scrollStep);
+        }
+    </script>
+</body>
+<feet> 
+    <button id="backToTopBtn" onclick="smoothScrollToTop()" style="display: none; opacity: 0; transition: opacity 0.5s; position: fixed; bottom: 20px; right: 20px; padding: 10px 15px; background-color: #2c3e50; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+        <i class="fas fa-arrow-up"></i> Back to Top
+    </button>
+</feet>
+</html>
